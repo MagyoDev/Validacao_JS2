@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JS/script.js"></script>
+    <title>Javascript</title>
+    
+</head>
+<body>
+    <form name="cadastro" method="post" action="#">
+        Nome: <input type="text" name="nome" id="nome"><p>
+        Endereço: <input type="text" name="endereco" id="endereco"><p>
+        Bairro: <input type="text" name="bairro" id="bairro" ><p>
+        Cep: <input type="text" name="cep" id="cep"><p>
+        Cidade: <input type="text" name="cidade" id="cidade"><p>
+        Estado: <select name="estados" id="estados">
+            <option value="1">SP</option>
+            <option value="2">RJ</option>
+        </select><p>    
+        <button type="button" value="enviar" name="cadastrar" id="cadastrar" onclick="return validarDados()">Cadastrar</button>
+    </form>
+</body>
+</html>
